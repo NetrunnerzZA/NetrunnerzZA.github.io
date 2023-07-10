@@ -60,11 +60,10 @@ footer {
     opacity: 0.5;
 }
 
-.hero-logo {
-    width: 25rem;
-    height: auto;
-    position: relative;
+.orgname {
     color: black;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 .tag-line {
