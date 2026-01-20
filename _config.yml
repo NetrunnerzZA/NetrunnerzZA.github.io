@@ -1,0 +1,85 @@
+baseurl: 
+permalink: pretty
+company: Netrunnerz (Pty) Ltd
+title: Netrunnerz
+favicon: /images/favicon.png
+
+logo:
+  mobile: "images/logo/logo-mobile.png"
+  mobile_height: "32px"
+  mobile_width: "32px"
+  desktop: "images/logo/logo.png"
+  desktop_height: "50px"
+  desktop_width: "161px"
+
+home: 
+  limit_services: 6
+
+collections:
+  services:
+    output: true
+    sort_by: weight
+  team:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+# plugins:
+#   - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md
+
+# Site Footer
+footer:
+  links:
+    # LinkedIn
+    - icon: "fab fa-fw fa-linkedin-in"
+      url: https://linkedin.com/company/netrunnerz
+    # Facebook
+    - icon: "fab fa-fw fa-facebook"
+      url: https://www.facebook.com/Netrunnerz
+    # X
+    - icon: "fab fa-fw fa-x-twitter"
+      url: https://x.com/NetrunnerzZA
+    # Truth
+    - icon: "fab fa-fw fa-link"
+      # url:
+    # BlueSky
+    - icon: "fab fa-fw fa-bluesky"
+      # url:
+    # GitHub
+    - icon: "fab fa-fw fa-github"
+      # url:
+    # GitLab
+    - icon: "fab fa-fw fa-gitlab"
+      # url:
+    # Bitbucket
+    - icon: "fab fa-fw fa-bitbucket"
+      # url:
+    # Instagram
+    - icon: "fab fa-fw fa-instagram"
+      # url:
+  since: "2023"

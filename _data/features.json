@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Experience",
+    "description": "Over two decades of enterprise IT and networking experience.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Expertise",
+    "description": "Industry-certified network and security professionals.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Solutions",
+    "description": "Bespoke IT solutions tailored to your business needs.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]
