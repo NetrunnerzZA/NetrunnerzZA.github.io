@@ -6,7 +6,11 @@
           {% if site.footer.links %}
             {% include social.html %}
           {% endif %}
-          <div class="copyright">&copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} {{ site.company }}. All rights reserved.</div>
+          <div class="copyright">
+            &copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} {{ site.company }}. All rights reserved.
+	    <span class="footer-separator">·</span>
+	    <a href="/privacy/">Privacy Policy</a>
+	  </div>
         </div>
       </div>
     </div>

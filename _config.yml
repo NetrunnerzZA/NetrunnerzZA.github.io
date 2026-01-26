@@ -4,6 +4,10 @@ company: Netrunnerz (Pty) Ltd
 title: Netrunnerz
 favicon: /images/favicon.png
 
+# Google Analytics
+google_analytics: 
+  id: G-J8LX3PSZN0
+
 logo:
   mobile: "images/logo/logo-mobile.png"
   mobile_height: "32px"
