@@ -13,6 +13,10 @@ Netrunnerz is a South African IT solutions company founded on experience, integr
 
 At Netrunnerz, our mission is to provide businesses with IT solutions that are **secure, scalable, and easy to manage**. We combine decades of enterprise IT experience with cybersecurity expertise to deliver practical, reliable solutions that keep your business secure, productive, and efficient.
 
+## Who We Serve
+
+Netrunnerz provides tailored IT solutions for a range of clients, including **schools, SMEs, and large enterprises**. We offer **on-site services in Gauteng** and **remote assistance across South Africa**, ensuring businesses receive support wherever they operate.
+
 ## Experience
 
 With over **25 years of enterprise IT experience**, our founder has designed, deployed, and maintained IT infrastructure across multi-site offices, manufacturing environments, and corporate head offices. Our expertise includes:  
